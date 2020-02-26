@@ -1,0 +1,51 @@
+.loginform{
+  background-color: #fff;
+  width: 60%;
+  border-radius: 10px;
+  border: 1px solid;
+  margin:0 auto;
+  input{
+    border-radius: 3px;
+    border: 1px solid #e7effe;
+  }
+  .wrapper {
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+    padding: 10px;
+  }
+  .formrow {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+    flex-direction: column;
+    .input-error{
+      color: red;
+    margin-top: 5px;
+    text-align: left;
+    font-size: 10px;
+    
+    }   
+  }
+  .row-error{
+    .error{
+      color: red;
+    }
+  }
+  .formrow > label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+  }
+  .formrow > input {
+    flex: 2;
+  }
+  .formrow > input,
+  .formrow > button {
+    padding: .5em;
+  }
+  .formrow > button {
+   background: gray;
+   color: white;
+   border: 0;
+  }
+}
