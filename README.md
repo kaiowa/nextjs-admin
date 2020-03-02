@@ -1,2 +1,4 @@
-# nextjsadmin
-nextjs admin panel with mysql
+nextJS admin
+
+nextjs admin panel with  mysql backend
+
